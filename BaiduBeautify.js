@@ -114,6 +114,12 @@
     // 未登录状态下
     // 去掉右侧辅助模式和登录扫码
     $('#s_side_wrapper').remove();
+
+    $('#s_lm_wrap').remove();
+
+    $('#wrapper').css({
+      'overflow': 'hidden',
+    });
   }
 
   /*
